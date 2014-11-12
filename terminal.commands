@@ -1,0 +1,1 @@
+./wrk -c10 -t9 -d10s -s ~/Projects/wrk/multiplepaths.lua --latency --timeout 5s http://mapserv.utah.gov
