@@ -1,0 +1,16 @@
+MattPeters:~ BenchMark$ wrk --threads 5 --connections 50 --duration 30m --timeout 15s --script ./paths.lua --latency --version http://mapserv.utah.gov
+wrk 3.1.1 [kqueue] Copyright (C) 2012 Will Glozer
+Running 30m test @ http://mapserv.utah.gov
+  5 threads and 50 connections
+// aborted early
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   115.14ms  415.81ms   4.07s    94.57%
+    Req/Sec   147.74     63.17   477.00     69.90%
+  Latency Distribution
+     50%   20.41ms
+     75%   47.69ms
+     90%   83.03ms
+     99%    3.23s 
+  227611 requests in 5.13m, 2.67GB read
+Requests/sec:    738.88
+Transfer/sec:      8.86MB
