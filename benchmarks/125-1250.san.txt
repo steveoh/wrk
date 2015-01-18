@@ -1,0 +1,15 @@
+Running 30m test @ http://mapserv.utah.gov
+  125 threads and 1250 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    40.87s     0.93m    4.10m    92.87%
+    Req/Sec     6.51     19.59   352.00     92.85%
+  Latency Distribution
+     50%   31.18s 
+     75%   35.26s 
+     90%    1.07m 
+     99%    4.10m 
+  1335078 requests in 30.03m, 15.61GB read
+  Socket errors: connect 0, read 2, write 0, timeout 576434
+  Non-2xx or 3xx responses: 2476
+Requests/sec:    740.99
+Transfer/sec:      8.87MB
