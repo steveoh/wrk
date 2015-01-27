@@ -1,0 +1,12 @@
+Running 10m test @ http://172.16.17.58/ArcGIS/rest/services/BaseMaps/Terrain/MapServer/tile/10/4494/4525
+  125 threads and 1250 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     3.86s     9.44s    1.15m    90.29%
+    Req/Sec     4.77      3.55    30.00     65.61%
+  Latency Distribution
+     50%  506.74ms
+     75%    1.42s 
+     90%   12.88s 
+     99%   45.35s 
+  402556 requests in 10.01m, 6.53GB read
+  Socket errors: connect 0, read 35, write 0, timeout 252227
